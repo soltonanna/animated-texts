@@ -1,12 +1,12 @@
-## Animated Blocks 
-In this repo you can see some interesting animated blocks, which can use on your web sites.
+## Animated Texts 
+In this repo you can see some interesting Animated Texts, which can use on your web sites.
 Some of blocks:
 <br>
-<img src="public/media/screen/Card-view-1.gif" alt="Card-View-1" />
+<img src="public/media/AnimatedTexts.gif" alt="Text-Views" />
 
 
 ## How Use
-In 'public' folder there is one main 'index.html' file, where each individual animated block is located in 'section' tag, which have ID with name of the .scss file, located in 'styles' folder. 
+In 'public' folder there is one main 'index.html' file, where each individual animated texts is located in 'section' tag, which have ID with name of the .scss file, located in 'styles' folder. 
 
 
 ## Install
@@ -21,4 +21,4 @@ npm start
 ```
 
 ## Demo
-<a href="https://soltonanna.github.io/animated-blocks/" target="blank"> DEMO </a>
+<a href="https://soltonanna.github.io/animated-texts/" target="blank"> DEMO </a>
