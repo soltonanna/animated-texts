@@ -1,0 +1,51 @@
+#text_view_5 {
+    .section-wrapper {
+        position: relative;
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        text-align: center;
+
+        h2 {
+            font-size: 28vw;
+            text-transform: uppercase;
+            font-weight: 900;
+            line-height: 1em;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-attachment: fixed;
+        }
+
+        &:nth-child(1) h2 {
+            background-image: url("media/giza2.jpg");
+            background-size: cover;
+        }
+        &:nth-child(2) h2 {
+            background-image: url("media/paris.jpg");
+            background-size: cover;
+        }
+        &:nth-child(3) h2 {
+            background-image:  url("media/dubai.jpg");
+            background-size: cover;
+        }
+
+        p {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .content a {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #000;
+            text-decoration: none;
+            color: #000;
+            margin-top: 20px;
+            text-transform: capitalize;
+        }
+    }
+}
